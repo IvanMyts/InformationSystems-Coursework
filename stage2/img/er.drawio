@@ -1,0 +1,520 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="pWbOeRslLrb7pIjNKfUE" name="Page-1">
+    <mxGraphModel dx="1759" dy="1166" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2094" pageHeight="1585" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hgHpeGHrVkss-Z4xnH_0-21" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=15;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" value="Жилец" vertex="1">
+          <mxGeometry height="210" width="160" x="900" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="hgHpeGHrVkss-Z4xnH_0-21-attrs" parent="hgHpeGHrVkss-Z4xnH_0-21" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;arcSize=15;labelBackgroundColor=none;rounded=0;fontColor=#46495D;" value="ФИО&lt;div&gt;Дата рождения&lt;/div&gt;&lt;div&gt;Телефон&lt;/div&gt;&lt;div&gt;Индекс лояльности&lt;/div&gt;&lt;div&gt;Коммунальный баланс&lt;/div&gt;&lt;div&gt;Статус проживания&lt;/div&gt;&lt;div&gt;Дата заселения&lt;/div&gt;&lt;div&gt;Дата выселения&lt;/div&gt;&lt;div&gt;Основание выселения&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hgHpeGHrVkss-Z4xnH_0-87" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=15;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" value="Учётная запись" vertex="1">
+          <mxGeometry height="140" width="160" x="420" y="601.4" as="geometry" />
+        </mxCell>
+        <mxCell id="hgHpeGHrVkss-Z4xnH_0-87-attrs" parent="hgHpeGHrVkss-Z4xnH_0-87" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;arcSize=15;labelBackgroundColor=none;rounded=0;fontColor=#46495D;" value="Логин&lt;div&gt;Хэш пароля&lt;/div&gt;&lt;div&gt;Роль&lt;/div&gt;&lt;div&gt;Признак блокировки&lt;/div&gt;&lt;div&gt;Дата создания&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hgHpeGHrVkss-Z4xnH_0-90" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=15;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" value="Уведомление" vertex="1">
+          <mxGeometry height="110" width="160" x="620" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="hgHpeGHrVkss-Z4xnH_0-90-attrs" parent="hgHpeGHrVkss-Z4xnH_0-90" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;arcSize=15;labelBackgroundColor=none;rounded=0;fontColor=#46495D;" value="Текст&lt;div&gt;Признак прочтения&lt;/div&gt;&lt;div&gt;Дата&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hgHpeGHrVkss-Z4xnH_0-94" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=15;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" value="Заметка досье" vertex="1">
+          <mxGeometry height="110" width="160" x="420" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="hgHpeGHrVkss-Z4xnH_0-94-attrs" parent="hgHpeGHrVkss-Z4xnH_0-94" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;arcSize=15;labelBackgroundColor=none;rounded=0;fontColor=#46495D;" value="Текст&lt;div&gt;Дата&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hgHpeGHrVkss-Z4xnH_0-99" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=15;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" value="Код приглашения" vertex="1">
+          <mxGeometry height="110" width="160" x="610" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="hgHpeGHrVkss-Z4xnH_0-99-attrs" parent="hgHpeGHrVkss-Z4xnH_0-99" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;arcSize=15;labelBackgroundColor=none;rounded=0;fontColor=#46495D;" value="Код&lt;div&gt;Дата выдачи&lt;/div&gt;&lt;div&gt;Дата активации&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hgHpeGHrVkss-Z4xnH_0-102" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=15;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" value="Донос" vertex="1">
+          <mxGeometry height="170" width="160" x="1574.1" y="494.4" as="geometry" />
+        </mxCell>
+        <mxCell id="hgHpeGHrVkss-Z4xnH_0-102-attrs" parent="hgHpeGHrVkss-Z4xnH_0-102" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;arcSize=15;labelBackgroundColor=none;rounded=0;fontColor=#46495D;" value="Описание&lt;div&gt;Дата события&lt;/div&gt;&lt;div&gt;Анонимность&lt;/div&gt;&lt;div&gt;Статус&lt;/div&gt;&lt;div&gt;Комментарий решения&lt;/div&gt;&lt;div&gt;Дата подачи&lt;/div&gt;&lt;div&gt;Дата рассмотрения&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="apt" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=15;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" value="Квартира" vertex="1">
+          <mxGeometry height="120" width="160" x="1230" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="apt-attrs" parent="apt" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;arcSize=15;labelBackgroundColor=none;rounded=0;fontColor=#46495D;" value="Номер&lt;div&gt;Этаж&lt;/div&gt;&lt;div&gt;Площадь&lt;/div&gt;&lt;div&gt;Тариф квартплаты&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="srv" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=15;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" value="Услуга" vertex="1">
+          <mxGeometry height="170" width="160" x="1200" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="srv-attrs" parent="srv" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;arcSize=15;labelBackgroundColor=none;rounded=0;fontColor=#46495D;" value="Код&lt;div&gt;Название&lt;/div&gt;&lt;div&gt;Описание&lt;/div&gt;&lt;div&gt;Минимальный ИЛ&lt;/div&gt;&lt;div&gt;Пошлина&lt;/div&gt;&lt;div&gt;Вид результата&lt;/div&gt;&lt;div&gt;Требуется период&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="req" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=15;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" value="Заявка" vertex="1">
+          <mxGeometry height="240" width="180" x="880" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="req-attrs" parent="req" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;arcSize=15;labelBackgroundColor=none;rounded=0;fontColor=#46495D;" value="Описание&lt;div&gt;Запрошенный период&lt;/div&gt;&lt;div&gt;Статус&lt;/div&gt;&lt;div&gt;Уплаченная пошлина&lt;/div&gt;&lt;div&gt;Признак возврата пошлины&lt;/div&gt;&lt;div&gt;Заключение&lt;/div&gt;&lt;div&gt;Текст документа&lt;/div&gt;&lt;div&gt;Срок действия&lt;/div&gt;&lt;div&gt;Причина отказа&lt;/div&gt;&lt;div&gt;Дата подачи&lt;/div&gt;&lt;div&gt;Дата изменения&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="180" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ev" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=15;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" value="Событие заявки" vertex="1">
+          <mxGeometry height="120" width="160" x="590" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="ev-attrs" parent="ev" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;arcSize=15;labelBackgroundColor=none;rounded=0;fontColor=#46495D;" value="Исходный статус&lt;div&gt;Новый статус&lt;/div&gt;&lt;div&gt;Комментарий&lt;/div&gt;&lt;div&gt;Дата&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pun" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=15;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" value="Наказание" vertex="1">
+          <mxGeometry height="140" width="160" x="1314.1" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="pun-attrs" parent="pun" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;arcSize=15;labelBackgroundColor=none;rounded=0;fontColor=#46495D;" value="Вид&lt;div&gt;Сумма штрафа&lt;/div&gt;&lt;div&gt;Основание&lt;/div&gt;&lt;div&gt;Дата назначения&lt;/div&gt;&lt;div&gt;Признак снятия&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pay" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=15;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" value="Платёж" vertex="1">
+          <mxGeometry height="140" width="160" x="807" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="pay-attrs" parent="pay" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;arcSize=15;labelBackgroundColor=none;rounded=0;fontColor=#46495D;" value="Идентификатор ЮKassa&lt;div&gt;Сумма&lt;/div&gt;&lt;div&gt;Статус&lt;/div&gt;&lt;div&gt;Дата создания&lt;/div&gt;&lt;div&gt;Дата подтверждения&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rent" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=15;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" value="Начисление квартплаты" vertex="1">
+          <mxGeometry height="160" width="180" x="1474.1" y="214.8" as="geometry" />
+        </mxCell>
+        <mxCell id="rent-attrs" parent="rent" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;arcSize=15;labelBackgroundColor=none;rounded=0;fontColor=#46495D;" value="Период&lt;div&gt;Сумма&lt;/div&gt;&lt;div&gt;Срок оплаты&lt;/div&gt;&lt;div&gt;Статус&lt;/div&gt;&lt;div&gt;Дата оплаты&lt;/div&gt;&lt;div&gt;Признак просрочки&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="180" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="op" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=15;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" value="Операция по балансу" vertex="1">
+          <mxGeometry height="120" width="170" x="1194" y="199.00000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="op-attrs" parent="op" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;arcSize=15;labelBackgroundColor=none;rounded=0;fontColor=#46495D;" value="Тип&lt;div&gt;Сумма&lt;/div&gt;&lt;div&gt;Баланс после операции&lt;/div&gt;&lt;div&gt;Дата&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="170" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lc" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=15;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" value="Изменение ИЛ" vertex="1">
+          <mxGeometry height="120" width="180" x="1592" y="907.8" as="geometry" />
+        </mxCell>
+        <mxCell id="lc-attrs" parent="lc" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;arcSize=15;labelBackgroundColor=none;rounded=0;fontColor=#46495D;" value="Применённое изменение&lt;div&gt;Значение после&lt;/div&gt;&lt;div&gt;Комментарий&lt;/div&gt;&lt;div&gt;Дата&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="180" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rule" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=15;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" value="Правило ИЛ" vertex="1">
+          <mxGeometry height="110" width="160" x="1586" y="1137" as="geometry" />
+        </mxCell>
+        <mxCell id="rule-attrs" parent="rule" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;arcSize=15;labelBackgroundColor=none;rounded=0;fontColor=#46495D;" value="Код&lt;div&gt;Описание&lt;/div&gt;&lt;div&gt;Изменение ИЛ&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" edge="1" parent="1" source="hgHpeGHrVkss-Z4xnH_0-21" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;defaultLabelBackgroundColor=page;startArrow=ERzeroToOne;startFill=0;startSize=8;endSize=8;arcSize=15;fontColor=default;strokeColor=#788AA3;" target="hgHpeGHrVkss-Z4xnH_0-87" value="">
+          <mxGeometry relative="1" x="-0.0267" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e0-label" connectable="0" parent="e0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;arcSize=15;rounded=0;fontColor=#46495D;" value="Владеет" vertex="1">
+          <mxGeometry relative="1" x="-0.0267" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="hgHpeGHrVkss-Z4xnH_0-90" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;endFill=0;rounded=0;defaultLabelBackgroundColor=page;startArrow=ERzeroToMany;startFill=0;startSize=8;endSize=8;entryX=0.862;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;arcSize=15;fontColor=default;strokeColor=#788AA3;" value="">
+          <mxGeometry relative="1" x="0.4496" as="geometry">
+            <Array as="points" />
+            <mxPoint x="547.8399999999999" y="847.1400000000001" as="sourcePoint" />
+            <mxPoint x="553.9199999999998" y="742.03" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e1-label" connectable="0" parent="e1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;arcSize=15;rounded=0;fontColor=#46495D;" value="Получает" vertex="1">
+          <mxGeometry relative="1" x="0.1751" as="geometry">
+            <mxPoint x="6" y="-24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="hgHpeGHrVkss-Z4xnH_0-94" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;endFill=0;rounded=0;defaultLabelBackgroundColor=page;startArrow=ERzeroToMany;startFill=0;startSize=8;endSize=8;arcSize=15;fontColor=default;strokeColor=#788AA3;" target="hgHpeGHrVkss-Z4xnH_0-21" value="">
+          <mxGeometry relative="1" x="-0.1754" as="geometry">
+            <Array as="points">
+              <mxPoint x="549.1" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2-label" connectable="0" parent="e2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;arcSize=15;rounded=0;fontColor=#46495D;" value="Описывает" vertex="1">
+          <mxGeometry relative="1" x="-0.1754" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="hgHpeGHrVkss-Z4xnH_0-94" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;endFill=0;rounded=0;defaultLabelBackgroundColor=page;startArrow=ERzeroToMany;startFill=0;startSize=8;endSize=8;arcSize=15;fontColor=default;strokeColor=#788AA3;" target="hgHpeGHrVkss-Z4xnH_0-87" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="590" />
+              <mxPoint x="480" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3-label" connectable="0" parent="e3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;arcSize=15;rounded=0;fontColor=#46495D;" value="Составляет" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="hgHpeGHrVkss-Z4xnH_0-21" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;endFill=0;rounded=0;defaultLabelBackgroundColor=page;startArrow=ERmandOne;startFill=0;startSize=8;endSize=8;jumpStyle=gap;arcSize=15;fontColor=default;strokeColor=#788AA3;" target="hgHpeGHrVkss-Z4xnH_0-99" value="">
+          <mxGeometry relative="1" x="-0.0011" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="595" />
+              <mxPoint x="870" y="595" />
+            </Array>
+            <mxPoint x="910" y="620" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4-label" connectable="0" parent="e4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;arcSize=15;rounded=0;fontColor=#46495D;" value="Получает" vertex="1">
+          <mxGeometry relative="1" x="0.4308" as="geometry">
+            <mxPoint x="32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="hgHpeGHrVkss-Z4xnH_0-102" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;endFill=0;rounded=0;defaultLabelBackgroundColor=page;startArrow=ERzeroToMany;startFill=0;startSize=8;endSize=8;entryX=1.008;entryY=0.651;entryDx=0;entryDy=0;entryPerimeter=0;jumpStyle=gap;arcSize=15;fontColor=default;strokeColor=#788AA3;" target="hgHpeGHrVkss-Z4xnH_0-21-attrs" value="">
+          <mxGeometry relative="1" x="0.0053" as="geometry">
+            <Array as="points">
+              <mxPoint x="1450" y="594.16" />
+              <mxPoint x="1450" y="594.16" />
+            </Array>
+            <mxPoint x="1560" y="580" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5-label" connectable="0" parent="e5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;arcSize=15;rounded=0;fontColor=#46495D;" value="Автор" vertex="1">
+          <mxGeometry relative="1" x="0.0053" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="hgHpeGHrVkss-Z4xnH_0-102-attrs" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;endFill=0;rounded=0;defaultLabelBackgroundColor=page;startArrow=ERzeroToMany;startFill=0;startSize=8;endSize=8;exitX=0.004;exitY=0.798;exitDx=0;exitDy=0;exitPerimeter=0;arcSize=15;fontColor=default;strokeColor=#788AA3;" target="hgHpeGHrVkss-Z4xnH_0-21" value="">
+          <mxGeometry relative="1" x="-0.083" as="geometry">
+            <Array as="points">
+              <mxPoint x="1180" y="640" />
+              <mxPoint x="1180" y="640" />
+            </Array>
+            <mxPoint x="1100" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6-label" connectable="0" parent="e6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;arcSize=15;rounded=0;fontColor=#46495D;" value="Подозреваемый" vertex="1">
+          <mxGeometry relative="1" x="-0.083" as="geometry">
+            <mxPoint x="-25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="hgHpeGHrVkss-Z4xnH_0-102-attrs" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;defaultLabelBackgroundColor=page;startArrow=ERzeroToMany;startFill=0;startSize=8;endSize=8;jumpStyle=gap;arcSize=15;fontColor=default;strokeColor=#788AA3;" target="hgHpeGHrVkss-Z4xnH_0-87" value="">
+          <mxGeometry relative="1" x="0.0227" as="geometry">
+            <Array as="points">
+              <mxPoint x="1600" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7-label" connectable="0" parent="e7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;arcSize=15;rounded=0;fontColor=#46495D;" value="Рассматривает" vertex="1">
+          <mxGeometry relative="1" x="0.0829" as="geometry">
+            <mxPoint x="-298" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="hgHpeGHrVkss-Z4xnH_0-21" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;endFill=0;rounded=0;defaultLabelBackgroundColor=page;startArrow=ERzeroToMany;startFill=0;startSize=8;endSize=8;arcSize=15;fontColor=default;strokeColor=#788AA3;" target="apt" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1160" y="480" />
+              <mxPoint x="1160" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8-label" connectable="0" parent="e8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;arcSize=15;rounded=0;fontColor=#46495D;" value="Проживает" vertex="1">
+          <mxGeometry relative="1" x="0.6479" as="geometry">
+            <mxPoint x="-31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="req" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;endFill=0;rounded=0;defaultLabelBackgroundColor=page;startArrow=ERzeroToMany;startFill=0;startSize=8;endSize=8;arcSize=15;fontColor=default;strokeColor=#788AA3;" target="hgHpeGHrVkss-Z4xnH_0-21" value="">
+          <mxGeometry relative="1" x="-0.1091" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="730" />
+              <mxPoint x="940" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9-label" connectable="0" parent="e9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;arcSize=15;rounded=0;fontColor=#46495D;" value="Подаёт" vertex="1">
+          <mxGeometry relative="1" x="-0.1091" as="geometry">
+            <mxPoint y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;endFill=0;rounded=0;defaultLabelBackgroundColor=page;startArrow=ERzeroToMany;startFill=0;startSize=8;endSize=8;arcSize=15;fontColor=default;strokeColor=#788AA3;" target="srv" value="">
+          <mxGeometry relative="1" x="0.0489" as="geometry">
+            <Array as="points">
+              <mxPoint x="1130" y="1110" />
+              <mxPoint x="1130" y="1110" />
+            </Array>
+            <mxPoint x="1060" y="1110" as="sourcePoint" />
+            <mxPoint x="1170.32" y="1015.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10-label" connectable="0" parent="e10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;arcSize=15;rounded=0;fontColor=#46495D;" value="Запрашивается" vertex="1">
+          <mxGeometry relative="1" x="0.2915" as="geometry">
+            <mxPoint x="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="req" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;defaultLabelBackgroundColor=page;startArrow=ERzeroToMany;startFill=0;startSize=8;endSize=8;entryX=-0.01;entryY=0.859;entryDx=0;entryDy=0;entryPerimeter=0;jumpStyle=gap;arcSize=15;fontColor=default;strokeColor=#788AA3;" target="apt-attrs" value="">
+          <mxGeometry relative="1" x="0.0841" as="geometry">
+            <Array as="points">
+              <mxPoint x="1160.5" y="1000" />
+              <mxPoint x="1160.5" y="530.1" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11-label" connectable="0" parent="e11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;arcSize=15;rounded=0;fontColor=#46495D;" value="Переселение в" vertex="1">
+          <mxGeometry relative="1" x="0.2847" as="geometry">
+            <mxPoint x="-4" y="139" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="ev" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;endFill=0;rounded=0;defaultLabelBackgroundColor=page;startArrow=ERoneToMany;startFill=0;startSize=8;endSize=8;arcSize=15;fontColor=default;strokeColor=#788AA3;" target="req-attrs" value="">
+          <mxGeometry relative="1" x="-0.4617" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="1125" />
+              <mxPoint x="800" y="1125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12-label" connectable="0" parent="e12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;arcSize=15;rounded=0;fontColor=#46495D;" value="Имеет историю" vertex="1">
+          <mxGeometry relative="1" x="-0.2731" as="geometry">
+            <mxPoint x="18" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="ev" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;defaultLabelBackgroundColor=page;startArrow=ERzeroToMany;startFill=0;startSize=8;endSize=8;entryX=0.606;entryY=1.021;entryDx=0;entryDy=0;entryPerimeter=0;arcSize=15;fontColor=default;strokeColor=#788AA3;" target="hgHpeGHrVkss-Z4xnH_0-87-attrs" value="">
+          <mxGeometry relative="1" x="0.112" as="geometry" />
+        </mxCell>
+        <mxCell id="e13-label" connectable="0" parent="e13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;arcSize=15;rounded=0;fontColor=#46495D;" value="Выполняет" vertex="1">
+          <mxGeometry relative="1" x="-0.083" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e14" edge="1" parent="1" source="pun" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;endFill=0;rounded=0;defaultLabelBackgroundColor=page;startArrow=ERzeroToMany;startFill=0;startSize=8;endSize=8;jumpStyle=gap;arcSize=15;fontColor=default;strokeColor=#788AA3;" target="hgHpeGHrVkss-Z4xnH_0-21" value="">
+          <mxGeometry relative="1" x="-0.0545" as="geometry">
+            <Array as="points">
+              <mxPoint x="1350" y="780" />
+              <mxPoint x="990" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e14-label" connectable="0" parent="e14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;arcSize=15;rounded=0;fontColor=#46495D;" value="Получает" vertex="1">
+          <mxGeometry relative="1" x="0.1636" as="geometry">
+            <mxPoint x="160" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e15" edge="1" parent="1" source="pun" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;endFill=0;rounded=0;defaultLabelBackgroundColor=page;startArrow=ERzeroToMany;startFill=0;startSize=8;endSize=8;jumpStyle=gap;fontColor=default;strokeColor=#788AA3;" target="hgHpeGHrVkss-Z4xnH_0-87" value="">
+          <mxGeometry relative="1" x="-0.1883" as="geometry">
+            <Array as="points">
+              <mxPoint x="1400" y="1280" />
+              <mxPoint x="440" y="1280" />
+              <mxPoint x="440" y="671.4" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e15-label" connectable="0" parent="e15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;arcSize=15;rounded=0;fontColor=#46495D;" value="Назначает" vertex="1">
+          <mxGeometry relative="1" x="0.4801" as="geometry">
+            <mxPoint x="960" y="35" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e16" edge="1" parent="1" source="pun" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=0;rounded=0;defaultLabelBackgroundColor=page;startArrow=ERzeroToMany;startFill=0;startSize=8;endSize=8;entryX=0.413;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;arcSize=15;fontColor=default;strokeColor=#788AA3;" value="">
+          <mxGeometry relative="1" x="0.0172" as="geometry">
+            <Array as="points">
+              <mxPoint x="1640.3" y="871.2" />
+            </Array>
+            <mxPoint x="1474.1" y="805.74" as="sourcePoint" />
+            <mxPoint x="1640.2799999999997" y="664.4000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e16-label" connectable="0" parent="e16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;arcSize=15;rounded=0;fontColor=#46495D;" value="Является основанием (M:N)" vertex="1">
+          <mxGeometry relative="1" x="0.3303" as="geometry">
+            <mxPoint x="-71" y="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e17" edge="1" parent="1" source="pun" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;defaultLabelBackgroundColor=page;startArrow=ERzeroToOne;startFill=0;startSize=8;endSize=8;arcSize=15;fontColor=default;strokeColor=#788AA3;" target="req" value="">
+          <mxGeometry relative="1" x="0.0236" as="geometry">
+            <Array as="points">
+              <mxPoint x="1230" y="860" />
+              <mxPoint x="1230" y="1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e17-label" connectable="0" parent="e17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;arcSize=15;rounded=0;fontColor=#46495D;" value="Снимает" vertex="1">
+          <mxGeometry relative="1" x="0.0236" as="geometry">
+            <mxPoint y="-53" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e18" edge="1" parent="1" source="pay" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;endFill=0;rounded=0;defaultLabelBackgroundColor=page;startArrow=ERzeroToMany;startFill=0;startSize=8;endSize=8;arcSize=15;fontColor=default;strokeColor=#788AA3;" target="hgHpeGHrVkss-Z4xnH_0-21" value="">
+          <mxGeometry relative="1" x="0.2882" as="geometry">
+            <Array as="points">
+              <mxPoint x="918.73" y="379.94" />
+              <mxPoint x="918.73" y="379.94" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e18-label" connectable="0" parent="e18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;arcSize=15;rounded=0;fontColor=#46495D;" value="Вносит" vertex="1">
+          <mxGeometry relative="1" x="-0.0941" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e19" edge="1" parent="1" source="rent" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;defaultLabelBackgroundColor=page;startArrow=ERzeroToMany;startFill=0;startSize=8;endSize=8;jumpStyle=gap;arcSize=15;fontColor=default;strokeColor=#788AA3;" target="hgHpeGHrVkss-Z4xnH_0-21" value="">
+          <mxGeometry relative="1" x="-0.2933" as="geometry">
+            <Array as="points">
+              <mxPoint x="1508.2" y="160" />
+              <mxPoint x="769.4" y="160" />
+              <mxPoint x="769.4" y="458.4" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e19-label" connectable="0" parent="e19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;arcSize=15;rounded=0;fontColor=#46495D;" value="Оплачивает" vertex="1">
+          <mxGeometry relative="1" x="-0.0692" as="geometry">
+            <mxPoint x="276" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e20" edge="1" parent="1" source="rent" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;endFill=0;rounded=0;defaultLabelBackgroundColor=page;startArrow=ERzeroToMany;startFill=0;startSize=8;endSize=8;arcSize=15;fontColor=default;strokeColor=#788AA3;" target="apt" value="">
+          <mxGeometry relative="1" x="0.5457" as="geometry">
+            <Array as="points">
+              <mxPoint x="1530.1" y="512.9" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e20-label" connectable="0" parent="e20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;arcSize=15;rounded=0;fontColor=#46495D;" value="Начисляется за" vertex="1">
+          <mxGeometry relative="1" x="0.4953" as="geometry">
+            <mxPoint x="30" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e21" edge="1" parent="1" source="op" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;endFill=0;rounded=0;defaultLabelBackgroundColor=page;startArrow=ERzeroToMany;startFill=0;startSize=8;endSize=8;arcSize=15;fontColor=default;strokeColor=#788AA3;" target="hgHpeGHrVkss-Z4xnH_0-21" value="">
+          <mxGeometry relative="1" x="-0.0009" as="geometry">
+            <Array as="points">
+              <mxPoint x="1009.9" y="243.2" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e21-label" connectable="0" parent="e21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;arcSize=15;rounded=0;fontColor=#46495D;" value="Изменяет баланс" vertex="1">
+          <mxGeometry relative="1" x="-0.0009" as="geometry">
+            <mxPoint x="10" y="42" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e22" edge="1" parent="1" source="op" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;defaultLabelBackgroundColor=page;startArrow=ERzeroToOne;startFill=0;startSize=8;endSize=8;jumpStyle=gap;arcSize=15;fontColor=default;strokeColor=#788AA3;" target="pay" value="">
+          <mxGeometry relative="1" x="-0.0072" as="geometry">
+            <Array as="points">
+              <mxPoint x="1128.51" y="220.9" />
+              <mxPoint x="1128.51" y="220.9" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e22-label" connectable="0" parent="e22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;arcSize=15;rounded=0;fontColor=#46495D;" value="Источник" vertex="1">
+          <mxGeometry relative="1" x="0.281" as="geometry">
+            <mxPoint x="15" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e23" edge="1" parent="1" source="op" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;defaultLabelBackgroundColor=page;startArrow=ERzeroToOne;startFill=0;startSize=8;endSize=8;arcSize=15;fontColor=default;strokeColor=#788AA3;" target="rent" value="">
+          <mxGeometry relative="1" x="0.0926" as="geometry">
+            <Array as="points">
+              <mxPoint x="1445.31" y="259" />
+              <mxPoint x="1445.31" y="259" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e23-label" connectable="0" parent="e23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;arcSize=15;rounded=0;fontColor=#46495D;" value="Источник" vertex="1">
+          <mxGeometry relative="1" x="0.0926" as="geometry">
+            <mxPoint x="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e24" edge="1" parent="1" source="op" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;defaultLabelBackgroundColor=page;startArrow=ERzeroToMany;startFill=0;startSize=8;endSize=8;jumpStyle=gap;arcSize=15;fontColor=default;strokeColor=#788AA3;" target="req" value="">
+          <mxGeometry relative="1" x="-0.1844" as="geometry">
+            <Array as="points">
+              <mxPoint x="1100" y="304" />
+              <mxPoint x="1100" y="840" />
+              <mxPoint x="970" y="840" />
+            </Array>
+            <mxPoint x="1120" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e24-label" connectable="0" parent="e24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;arcSize=15;rounded=0;fontColor=#46495D;" value="Источник" vertex="1">
+          <mxGeometry relative="1" x="-0.1844" as="geometry">
+            <mxPoint y="-165" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e25" edge="1" parent="1" source="op" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;defaultLabelBackgroundColor=page;startArrow=ERzeroToOne;startFill=0;startSize=8;endSize=8;entryX=0.75;entryY=0;entryDx=0;entryDy=0;jumpStyle=gap;arcSize=15;fontColor=default;strokeColor=#788AA3;" target="pun" value="">
+          <mxGeometry relative="1" x="-0.5285" as="geometry">
+            <Array as="points">
+              <mxPoint x="1434.1" y="290.4" />
+            </Array>
+            <mxPoint x="1190" y="390" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e25-label" connectable="0" parent="e25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;arcSize=15;rounded=0;fontColor=#46495D;" value="Источник" vertex="1">
+          <mxGeometry relative="1" x="-0.5027" as="geometry">
+            <mxPoint x="-4" y="84" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e26" edge="1" parent="1" source="lc" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;endFill=0;rounded=0;defaultLabelBackgroundColor=page;startArrow=ERzeroToMany;startFill=0;startSize=8;endSize=8;jumpStyle=gap;arcSize=15;fontColor=default;strokeColor=#788AA3;" target="hgHpeGHrVkss-Z4xnH_0-21" value="">
+          <mxGeometry relative="1" x="0.0478" as="geometry">
+            <Array as="points">
+              <mxPoint x="1663.1" y="700.3" />
+              <mxPoint x="1020" y="700.3" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e26-label" connectable="0" parent="e26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;arcSize=15;rounded=0;fontColor=#46495D;" value="Изменяет ИЛ" vertex="1">
+          <mxGeometry relative="1" x="0.3475" as="geometry">
+            <mxPoint x="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e27" edge="1" parent="1" source="lc" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;endFill=0;rounded=0;defaultLabelBackgroundColor=page;startArrow=ERzeroToMany;startFill=0;startSize=8;endSize=8;arcSize=15;fontColor=default;strokeColor=#788AA3;" target="rule" value="">
+          <mxGeometry relative="1" x="0.0303" as="geometry">
+            <Array as="points">
+              <mxPoint x="1666" y="1037.22" />
+              <mxPoint x="1666" y="1037.22" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e27-label" connectable="0" parent="e27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;arcSize=15;rounded=0;fontColor=#46495D;" value="Применяется" vertex="1">
+          <mxGeometry relative="1" x="-0.4637" as="geometry">
+            <mxPoint y="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e28" edge="1" parent="1" source="lc" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;defaultLabelBackgroundColor=page;startArrow=ERzeroToMany;startFill=0;startSize=8;endSize=8;entryX=0.75;entryY=1;entryDx=0;entryDy=0;arcSize=15;fontColor=default;strokeColor=#788AA3;" target="hgHpeGHrVkss-Z4xnH_0-102" value="">
+          <mxGeometry relative="1" x="-0.0016" as="geometry">
+            <Array as="points">
+              <mxPoint x="1694.1" y="840" />
+              <mxPoint x="1694.1" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e28-label" connectable="0" parent="e28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;arcSize=15;rounded=0;fontColor=#46495D;" value="Причина" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e29" edge="1" parent="1" source="lc" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;defaultLabelBackgroundColor=page;startArrow=ERzeroToMany;startFill=0;startSize=8;endSize=8;arcSize=15;fontColor=default;strokeColor=#788AA3;" target="pun" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1552.55" y="932.44" />
+              <mxPoint x="1552.55" y="932.44" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e29-label" connectable="0" parent="e29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;arcSize=15;rounded=0;fontColor=#46495D;" value="Причина" vertex="1">
+          <mxGeometry relative="1" x="0.1758" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e30" edge="1" parent="1" source="lc" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;defaultLabelBackgroundColor=page;startArrow=ERzeroToMany;startFill=0;startSize=8;endSize=8;arcSize=15;fontColor=default;strokeColor=#788AA3;" target="rent" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1766.3" y="294.8" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e30-label" connectable="0" parent="e30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;arcSize=15;rounded=0;fontColor=#46495D;" value="Причина" vertex="1">
+          <mxGeometry relative="1" x="0.0829" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e31" edge="1" parent="1" source="lc" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;defaultLabelBackgroundColor=page;startArrow=ERzeroToMany;startFill=0;startSize=8;endSize=8;jumpStyle=gap;arcSize=15;fontColor=default;strokeColor=#788AA3;" target="req" value="">
+          <mxGeometry relative="1" x="0.1195" as="geometry">
+            <Array as="points">
+              <mxPoint x="1326" y="1010" />
+              <mxPoint x="1326" y="1050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e31-label" connectable="0" parent="e31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;arcSize=15;rounded=0;fontColor=#46495D;" value="Причина" vertex="1">
+          <mxGeometry relative="1" x="0.1195" as="geometry">
+            <mxPoint x="18" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
